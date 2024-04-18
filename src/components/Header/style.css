@@ -1,0 +1,142 @@
+.header {
+    width: 100%;
+    max-width: 480px;
+    /* min-width: 320px; */
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    margin-bottom: 25px;
+    background-color: #fff;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header__img {
+    width: 70px;
+    height: 70px;
+}
+
+.header__content-text {
+    max-width: 390px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #333;
+}
+
+.header__image-wrapper {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 112px;
+    height: 112px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 13px;
+    text-transform: uppercase;
+    background-image: url('../../assets/images/header-discount-img.png');
+    /* background: center no-repeat; */
+}
+
+.discount_text {
+    display: block;
+    width: 100px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    white-space: nowrap;
+    position: absolute;
+    top: 42px;
+    left: 21px;
+}
+
+.price-comparison {
+    position: relative;
+    display: flex;
+    margin: -23px 0;
+    padding: 0 20px;
+}
+
+.price-comparison::before {
+    display: block;
+    content: '';
+    width: 75px;
+    height: 34px;
+    background: #f5ca16;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: 0;
+}
+
+.price-comparison::after {
+    display: block;
+    content: '';
+    width: 56px;
+    border-top: 34px solid #f5ca16;
+    border-left: 22px solid rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    right: 0;
+}
+
+.old__price-block {
+    position: relative;
+    padding: 15px 0 0 15px;
+    width: 220px;
+    height: 80px;
+    border: 1px solid #222;
+    border-radius: 4px 0 0 4px;
+    background-color: #222;
+}
+
+.price__item-text {
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    z-index: 99;
+}
+
+.price__item-value {
+    position: relative;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: line-through;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    z-index: 99;
+}
+
+.new__price-block {
+    position: relative;
+    z-index: 999;
+    padding: 15px 0 0;
+    width: 220px;
+    height: 80px;
+    border: 1px solid #e43315;
+    border-radius: 0px 4px 4px 0px;
+    background-color: #e43315;
+}
+
+.new__price-block .price__item-value {
+    text-decoration: none;
+}

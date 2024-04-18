@@ -1,0 +1,21 @@
+.description__wrapper {
+    margin: 25px 0 30px;
+    padding: 0 30px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.description__subtitle {
+    color: #e43315;
+}
+
+h2:after {
+    display: block;
+    content: '';
+    margin: 15px 0 0;
+    width: 62px;
+    height: 5px;
+    background: url('../../../assets/images/subtitle-after-img.png') center no-repeat;
+}

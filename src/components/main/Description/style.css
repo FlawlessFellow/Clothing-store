@@ -1,0 +1,19 @@
+.description_block {
+    display: flex;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 12px 10px 10px;
+    background-color: #ebebebcc;
+    /* min-width: 320px; */
+}
+
+.description {
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #222;
+}

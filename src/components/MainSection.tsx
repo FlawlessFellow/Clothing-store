@@ -1,32 +1,17 @@
 import React, { FC } from 'react';
-import Hero from './main/HeroSection/Hero';
-import Presentation from './main/PresentationSection/Presentation';
-import Management from './main/TeamManagementSection/Management';
-import GetStarted from './main/GetStartedSection/GetStarted';
-import TimeTracking from './main/TimeTrackingSection/TimeTracking';
-import DataSecurity from './main/DataSecuritySection/DataSecurity';
-import Header from './Header/Header';
+import '../assets/styles/reset.css';
 import '../assets/styles/main.css';
-import '../assets/styles/hover.css';
-import Recommendation from './main/RecommendationSection/Recommendation';
-import LinkPanel from './main/LinkPanelSection/LinkPanel';
+import '../assets/fonts/Montserrat.css';
 import Footer from './Footer/Footer';
-import BottomLinkPanel from './main/BottomLinkPanelSection/BottomLinkPanel';
+import Header from './Header/Header';
+import SuitFeatures from './main/BenefitsSection/BenefitsSection';
 
 const MainSection: FC = () => {
     return (
         <>
             <Header />
-            <Hero />
-            <Presentation />
-            <Management />
-            <GetStarted />
-            <TimeTracking />
-            <DataSecurity />
-            <Recommendation />
-            <LinkPanel />
-            <BottomLinkPanel />
-            <Footer />
+            <SuitFeatures />
+            {/* <Footer /> */}
         </>
     );
 };

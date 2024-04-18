@@ -1,51 +1,34 @@
-import React, { useEffect, useRef } from 'react';
-import { Link } from 'gatsby';
-import './header.css';
-import BlueBtn from '../BlueBtn/BlueBtn';
-import headerLogo from '../../assets/images/header-logo.webp';
+import React from 'react';
+import './style.css';
+import HeaderLogo from '../../assets/images/header-logo.png';
+import Description from '../main/Description/Description';
+import HeaderImg from '../../assets/images/header-img.png';
 
 const Header = () => {
-    const headerRef = useRef<HTMLDivElement>(null);
-
-    const isHeaderFixed = () => {
-        if (!headerRef.current) return;
-        if (window.scrollY >= 70) {
-            headerRef.current.classList.add('header-fixed');
-        }
-        if (window.scrollY === 0) {
-            headerRef.current.classList.remove('header-fixed');
-        }
-    };
-
-    useEffect(() => {
-        window.addEventListener('scroll', isHeaderFixed);
-        return () => {
-            window.removeEventListener('scroll', isHeaderFixed);
-        };
-    }, [isHeaderFixed]);
-
     return (
-        <header id="header" ref={headerRef}>
+        <header id="header" className="header">
             <div className="header__wrapper">
-                <nav className="header__nav">
-                    <div className="header__nav-links">
-                        <Link to="#!" target={'_blank'}>
-                            <img src={headerLogo} alt="logo" className="header__nav-logo" />
-                        </Link>
-                        <Link to="#!" target={'_blank'} className="header__nav-download hvr-grow">
-                            Downloads
-                        </Link>
-                        <div className="header__burger">
-                            <span></span>
+                <h1 className="header__content">
+                    <img src={HeaderLogo} alt="decoration img" className="header__img" />
+                    <span className="header__content-text">Трендовий костюм- двійка із Ангори</span>
+                </h1>
+                <Description />
+                <div className="header__image-wrapper">
+                    <div className="discount">
+                        <b className="discount_text">40% знижка</b>
+                    </div>
+                    <img src={HeaderImg} alt="model images" />
+                    <div className="price-comparison">
+                        <div className="old__price-block">
+                            <div className="price__item-text">Стара ціна:</div>
+                            <div className="price__item-value">1 999 грн</div>
+                        </div>
+                        <div className="new__price-block">
+                            <div className="price__item-text">Акційна ціна:</div>
+                            <div className="price__item-value">799 грн</div>
                         </div>
                     </div>
-                    <div className="header__nav-actions">
-                        <button type="button" className="header__nav-greyBtn">
-                            Log In
-                        </button>
-                        <BlueBtn text={'Sign Up'} classNames={'header__nav-blueBtn'} onClick={() => null} />
-                    </div>
-                </nav>
+                </div>
             </div>
         </header>
     );

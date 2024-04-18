@@ -21,16 +21,27 @@
 
 /* Common styles */
 body {
-    font-size: 1rem;
-    background-color: #fff;
+    font-size: 15px;
+    line-height: 22;
+    font-weight: 400;
+    background-color: #ddd;
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 22px;
+    overflow-y: scroll;
+    color: #222;
 }
 
-.container {
-    max-width: 1670px;
-    margin: 0 auto;
-    padding: 0 100px;
-}
+/* h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+} */
 
 ul,
 ol,
@@ -52,6 +63,8 @@ a {
 } */
 
 img {
+    max-width: 100%;
+    height: auto;
     vertical-align: middle;
     border-style: none;
     overflow-clip-margin: content-box;
