@@ -2,7 +2,11 @@ import React from 'react';
 import './style.css';
 
 const Footer = () => {
-    return <footer><h1>JAMBALA</h1></footer>;
+    return (
+        <footer>
+            <h1></h1>
+        </footer>
+    );
 };
 
 export default Footer;

@@ -4,13 +4,15 @@ import '../assets/styles/main.css';
 import '../assets/fonts/Montserrat.css';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
-import SuitFeatures from './main/BenefitsSection/BenefitsSection';
+import Benefits from './main/BenefitsSection/BenefitsSection';
+import CountdownTimer from './main/CountdownTimer/CountdownTimer';
 
 const MainSection: FC = () => {
     return (
         <>
             <Header />
-            <SuitFeatures />
+            <Benefits />
+            <CountdownTimer />
             {/* <Footer /> */}
         </>
     );
