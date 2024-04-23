@@ -6,6 +6,7 @@ import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Benefits from './main/BenefitsSection/BenefitsSection';
 import CountdownTimer from './main/CountdownTimer/CountdownTimer';
+import Button from './main/Button/Button';
 
 const MainSection: FC = () => {
     return (
@@ -13,6 +14,7 @@ const MainSection: FC = () => {
             <Header />
             <Benefits />
             <CountdownTimer />
+            <Button />
             {/* <Footer /> */}
         </>
     );
