@@ -1,11 +1,43 @@
 .countdown-timer {
     max-width: 480px;
     width: 100%;
-    margin: 0 auto 35px;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 20px 20px 10px;
     text-align: center;
     text-transform: uppercase;
     border-top: 1px dashed rgba(0, 0, 0, 0.1);
     border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
     background: #f4f4f4;
+}
+
+.countdown__timer-subtitle {
+    display: block;
+    margin: 0 0 15px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.count-item{
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #f5ca16;
+    width: 100px;
+    height: 60px;
+}
+
+.time_text {
+    position: absolute;
+    font-size: 36px;
+    font-weight: 700;
+    top: 30%;
+    right: 30%;
+}
+
+.timer-text {
+    font-size: 13px;
 }
