@@ -1,0 +1,12 @@
+.section-one {
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.section__one-img {
+    border: 7px solid #ededed;
+    border-radius: 8px;
+    margin: 0 auto 30px;
+}

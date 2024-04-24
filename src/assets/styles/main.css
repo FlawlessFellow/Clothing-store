@@ -70,3 +70,9 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 480px;
+    width: 100%;
+}

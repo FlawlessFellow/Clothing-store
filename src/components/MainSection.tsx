@@ -8,6 +8,7 @@ import Benefits from './main/BenefitsSection/BenefitsSection';
 import CountdownTimer from './main/CountdownTimer/CountdownTimer';
 import Button from './main/Button/Button';
 import ProductsCount from './main/ProductsCount/ProductsCount';
+import SectionOne from './main/SectionOne/SectionOne';
 
 const MainSection: FC = () => {
     return (
@@ -17,6 +18,7 @@ const MainSection: FC = () => {
             <CountdownTimer />
             <Button />
             <ProductsCount />
+            <SectionOne />
             {/* <Footer /> */}
         </>
     );
