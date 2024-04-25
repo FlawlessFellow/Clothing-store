@@ -1,12 +1,18 @@
 .section-one {
+    margin: 0 auto;
+    padding-bottom: 15px;
     width: 100%;
     max-width: 480px;
-    margin: 0 auto;
     background-color: #fff;
 }
 
 .section__one-img {
+    display: block;
     border: 7px solid #ededed;
     border-radius: 8px;
     margin: 0 auto 30px;
+}
+
+.section__one-text {
+    padding: 0 30px 15px;
 }
