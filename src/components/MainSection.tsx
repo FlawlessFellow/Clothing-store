@@ -11,6 +11,7 @@ import ProductsCount from './main/ProductsCount/ProductsCount';
 import SectionOne from './main/SectionOne/SectionOne';
 import SectionTwo from './main/SectionTwo/SectionTwo';
 import SectionThree from './main/SectionThree/SectionThree';
+import SectionFour from './main/SectionFour/SectionFour';
 
 const MainSection: FC = () => {
     return (
@@ -23,6 +24,7 @@ const MainSection: FC = () => {
             <SectionOne />
             <SectionTwo />
             <SectionThree />
+            <SectionFour />
         </>
     );
 };
