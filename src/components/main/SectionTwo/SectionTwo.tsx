@@ -1,8 +1,6 @@
 import React from 'react';
 import './style.css';
-import MainDescription from '../MainDescription/MainDescription';
-import SimpleImageSlider from 'react-simple-image-slider';
-import Button from '../Button/Button';
+import SectionComponent from '../SectionComponent/SectionComponent';
 
 const images = [
     { url: 'https://imgur.com/YA7egHA.jpg' },
@@ -10,20 +8,17 @@ const images = [
     { url: 'https://imgur.com/IEW96jR.jpg' },
 ];
 
-const SectionTwo = () => {
+const App: React.FC = () => {
     return (
         <div>
-            <section className="section-two">
-                <MainDescription
-                    pText="Смарагдовий"
-                    descWrapperClassName="description__wrapper"
-                    spanClassName="description__subtitle"
-                />
-                <SimpleImageSlider width={480} height={480} images={images} showBullets={true} showNavs={true} />
-                <Button />
-            </section>
+            <SectionComponent
+                images={images}
+                pText="Смарагдовий"
+                descWrapperClassName="description__wrapper"
+                spanClassName="description__subtitle"
+            />
         </div>
     );
 };
 
-export default SectionTwo;
+export default App;
