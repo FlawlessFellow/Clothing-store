@@ -9,6 +9,7 @@ import CountdownTimer from './main/CountdownTimer/CountdownTimer';
 import Button from './main/Button/Button';
 import ProductsCount from './main/ProductsCount/ProductsCount';
 import SectionOne from './main/SectionOne/SectionOne';
+import SectionTwo from './main/SectionTwo/SectionTwo';
 
 const MainSection: FC = () => {
     return (
@@ -19,6 +20,7 @@ const MainSection: FC = () => {
             <Button />
             <ProductsCount />
             <SectionOne />
+            <SectionTwo />
             {/* <Footer /> */}
         </>
     );

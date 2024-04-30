@@ -5,7 +5,7 @@ type Props = {
     descWrapperClassName?: string;
     spanClassName?: string;
     pClassName?: string;
-    text: string;
+    text?: string;
     pText?: string;
 };
 
