@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
-import MainDescription from '../MainDescription/MainDescription';
-import SimpleImageSlider from 'react-simple-image-slider';
+import SectionComponent from '../SectionComponent/SectionComponent';
 
 const images = [
     { url: 'https://imgur.com/vhlVFT5.jpg' },
@@ -12,14 +11,12 @@ const images = [
 const SectionFour = () => {
     return (
         <div>
-            <section className="section-four">
-                <MainDescription
-                    pText="Чорний"
-                    descWrapperClassName="description__wrapper"
-                    spanClassName="description__subtitle"
-                />
-                <SimpleImageSlider width={480} height={480} images={images} showBullets={true} showNavs={true} />
-            </section>
+            <SectionComponent
+                images={images}
+                pText={'Чорний'}
+                descWrapperClassName="description__wrapper"
+                spanClassName="description__subtitle"
+            />
         </div>
     );
 };

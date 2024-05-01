@@ -8,7 +8,7 @@ const images = [
     { url: 'https://imgur.com/IEW96jR.jpg' },
 ];
 
-const App: React.FC = () => {
+const SectionTwo = () => {
     return (
         <div>
             <SectionComponent
@@ -21,4 +21,4 @@ const App: React.FC = () => {
     );
 };
 
-export default App;
+export default SectionTwo;
