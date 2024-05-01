@@ -3,17 +3,17 @@ import './style.css';
 import SectionComponent from '../SectionComponent/SectionComponent';
 
 const images = [
-    { url: 'https://imgur.com/AkyCMXr.jpg' },
-    { url: 'https://imgur.com/CuVer6B.jpg' },
-    { url: 'https://imgur.com/O3RRESZ.jpg' },
+    { url: 'https://imgur.com/YA7egHA.jpg' },
+    { url: 'https://imgur.com/2yjoUuC.jpg' },
+    { url: 'https://imgur.com/IEW96jR.jpg' },
 ];
 
-const SectionTwo = () => {
+const SectionEight = () => {
     return (
         <div>
             <SectionComponent
                 images={images}
-                pText="Рожевий"
+                pText="Смарагдовий"
                 descWrapperClassName="description__wrapper"
                 spanClassName="description__subtitle"
             />
@@ -21,4 +21,4 @@ const SectionTwo = () => {
     );
 };
 
-export default SectionTwo;
+export default SectionEight;

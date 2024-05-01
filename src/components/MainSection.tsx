@@ -15,6 +15,8 @@ import SectionFour from './main/SectionFour/SectionFour';
 import SectionFive from './main/SectionFive/SectionFive';
 import SectionSix from './main/SectionSix/SectionSix';
 import SectionSeven from './main/SectionSeven/SectionSeven';
+import SectionEight from './main/SectionEight/SectionEight';
+import SectionReviews from './main/Reviews/Reviews';
 
 const MainSection: FC = () => {
     return (
@@ -31,6 +33,8 @@ const MainSection: FC = () => {
             <SectionFive />
             <SectionSix />
             <SectionSeven />
+            <SectionEight />
+            <SectionReviews />
         </>
     );
 };
