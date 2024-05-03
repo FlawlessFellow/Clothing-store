@@ -18,6 +18,7 @@ import SectionSeven from './main/SectionSeven/SectionSeven';
 import SectionEight from './main/SectionEight/SectionEight';
 import SectionReviews from './main/Reviews/Reviews';
 import OrderingGuide from './main/OrderingGuide/OrderingGuide';
+import OfferSection from './main/OfferSection/OfferSection';
 
 const MainSection: FC = () => {
     return (
@@ -37,6 +38,7 @@ const MainSection: FC = () => {
             <SectionEight />
             <SectionReviews />
             <OrderingGuide />
+            <OfferSection />
         </>
     );
 };

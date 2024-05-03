@@ -1,0 +1,48 @@
+.offer-section {
+    width: 100%;
+    max-width: 480px;
+    /* min-width: 320px; */
+    margin: 0 auto;
+}
+
+.offer-content {
+    display: flex;
+    align-items: center;
+    padding: 20px 10px 10px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    color: #333;
+    background-color: #fff;
+}
+
+.offer-price-comparison {
+    position: relative;
+    display: flex;
+    margin: -23px 0 25px;
+    padding: 0 20px;
+    height: 80px;
+}
+.offer-price-comparison::before {
+    display: block;
+    content: '';
+    width: 75px;
+    height: 34px;
+    background: #f5ca16;
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    left: 0;
+}
+.offer-price-comparison::after {
+    display: block;
+    content: '';
+    width: 56px;
+    border-top: 34px solid #f5ca16;
+    border-left: 22px solid rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    right: 0;
+}

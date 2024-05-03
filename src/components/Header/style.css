@@ -69,7 +69,6 @@
     margin: -23px 0;
     padding: 0 20px;
 }
-
 .price-comparison::before {
     display: block;
     content: '';
@@ -81,7 +80,6 @@
     margin-top: -17px;
     left: 0;
 }
-
 .price-comparison::after {
     display: block;
     content: '';
