@@ -20,9 +20,10 @@
 .offer-price-comparison {
     position: relative;
     display: flex;
-    margin: -23px 0 25px;
+    margin: -23px 0;
     padding: 0 20px;
     height: 80px;
+    background-color: #fff;
 }
 .offer-price-comparison::before {
     display: block;

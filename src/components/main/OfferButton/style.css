@@ -1,0 +1,14 @@
+.offer_btn {
+    padding: 7px 10px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.clicked_btn {
+    border: 1px solid #222;
+    text-align: center;
+    padding: 7px 10px;
+    cursor: pointer;
+}

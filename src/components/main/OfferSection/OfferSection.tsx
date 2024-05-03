@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import Description from '../Description/Description';
 import HeaderImg from '../../../assets/images/header-img.png';
+import OfferForm from '../OfferForm/OfferForm';
 
 const OfferSection = () => {
     return (
@@ -26,6 +27,8 @@ const OfferSection = () => {
                             </div>
                         </div>
                     </div>
+
+                    <OfferForm />
                 </div>
             </section>
         </div>
