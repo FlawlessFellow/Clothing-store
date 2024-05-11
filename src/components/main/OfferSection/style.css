@@ -1,10 +1,3 @@
-.offer-section {
-    width: 100%;
-    max-width: 480px;
-    /* min-width: 320px; */
-    margin: 0 auto;
-}
-
 .offer-content {
     display: flex;
     align-items: center;
@@ -46,4 +39,14 @@
     top: 50%;
     margin-top: -17px;
     right: 0;
+}
+
+@media screen and (max-width: 410px) {
+    .offer-price-comparison {
+        padding: 0 50px;
+    }
+
+    .offer-price-comparison::after {
+        width: 30px;
+    }
 }

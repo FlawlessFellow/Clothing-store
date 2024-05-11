@@ -11,8 +11,8 @@ const Button: React.FC<ButtonProps> = ({ text, className, id }) => {
     return (
         <div>
             <div className="button-wrapper">
-                <a href="#!">
-                    <button className="button">
+                <a href="tg://resolve?domain=E_L_N_U_R">
+                    <button type="submit" className="button">
                         <span className="button-text">Оформити замовлення</span>
                     </button>
                 </a>

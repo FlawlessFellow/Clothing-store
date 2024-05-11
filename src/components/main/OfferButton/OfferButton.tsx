@@ -2,16 +2,11 @@ import React, { useState, FC } from 'react';
 import './style.css';
 
 type Props = {
-    checkedBtn?: string;
     text: string;
 };
 
-const OfferButton: FC<Props> = ({ checkedBtn, text }) => {
+const OfferButton: FC<Props> = ({ text }) => {
     const [isButtonClicked, setIsButtonClicked] = useState(false);
-
-    const getInputClass = () => {
-        return isButtonClicked ? 'clicked_btn' : 'offer_btn';
-    };
 
     const handleBlur = () => {
         setIsButtonClicked(false);
@@ -19,15 +14,13 @@ const OfferButton: FC<Props> = ({ checkedBtn, text }) => {
 
     return (
         <div>
-            <button
+            <input
                 type="button"
-                id={checkedBtn}
-                className={getInputClass()}
+                value={text}
+                className={isButtonClicked ? 'clicked_btn' : 'offer_btn'}
                 onClick={() => setIsButtonClicked(true)}
                 onBlur={handleBlur}
-            >
-                {text}
-            </button>
+            />
         </div>
     );
 };

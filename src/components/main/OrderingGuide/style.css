@@ -1,9 +1,5 @@
 .ordering-guide {
-    margin: 0 auto;
     padding: 30px 0 0;
-    max-width: 480px;
-    width: 100%;
-    background-color: #fff;
 }
 
 .ordering-subtitle-wrapper {
@@ -91,4 +87,10 @@
     display: table-cell;
     vertical-align: middle;
     background: url(../../../assets/images/order-step4-image.png) left center no-repeat;
+}
+
+@media (max-width: 399px) {
+    .ordering-guide {
+        display: none;
+    }
 }

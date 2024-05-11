@@ -21,14 +21,16 @@
 
 /* Common styles */
 body {
+    width: 100%;
+    min-width: 320px;
     font-size: 15px;
-    line-height: 22;
+    line-height: 22px;
     font-weight: 400;
     background-color: #ddd;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     font-family: 'Montserrat', sans-serif;
     line-height: 22px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     color: #222;
 }
 
@@ -65,14 +67,14 @@ a {
 img {
     max-width: 100%;
     height: auto;
-    vertical-align: middle;
     border-style: none;
-    overflow-clip-margin: content-box;
-    overflow: clip;
+    flex-shrink: 0;
+    align-self: center;
 }
 
-.container {
+.main-wrapper {
     margin: 0 auto;
-    max-width: 480px;
     width: 100%;
+    max-width: 480px;
+    background-color: #fff;
 }

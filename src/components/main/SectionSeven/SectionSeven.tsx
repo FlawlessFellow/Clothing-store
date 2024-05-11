@@ -12,6 +12,7 @@ const SectionSeven = () => {
     return (
         <div>
             <SectionComponent
+                sectionClassName="section-seven"
                 images={images}
                 pText={'Червоний'}
                 descWrapperClassName="description__wrapper"

@@ -1,8 +1,6 @@
 .countdown-timer {
-    max-width: 480px;
-    width: 100%;
     margin: 0 auto;
-    padding: 20px 20px 10px;
+    padding: 20px;
     text-align: center;
     text-transform: uppercase;
     border-top: 1px dashed rgba(0, 0, 0, 0.1);
@@ -22,7 +20,7 @@
     justify-content: space-around;
 }
 
-.count-item{
+.count-item {
     margin-bottom: 10px;
     position: relative;
     background-color: #f5ca16;
@@ -40,4 +38,27 @@
 
 .timer-text {
     font-size: 13px;
+}
+
+@media screen and (max-width: 400px) {
+    .timer {
+        width: 285px;
+    }
+
+    .timer-items {
+        /* float: left; */
+        margin: 0px 20px 0 0;
+        width: 80px;
+    }
+
+    .count-item {
+        height: 50px;
+    }
+
+    .time_text {
+        font-size: 26px;
+        width: 36px;
+        height: 50px;
+        line-height: 50px;
+    }
 }

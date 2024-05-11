@@ -1,9 +1,5 @@
 .section-one {
-    margin: 0 auto;
-    padding-bottom: 15px;
-    width: 100%;
-    max-width: 480px;
-    background-color: #fff;
+    padding: 0 0 15px;
 }
 
 .section__one-img {
@@ -15,4 +11,10 @@
 
 .section__one-text {
     padding: 0 30px 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .section__one-img {
+        width: 400px;
+    }
 }

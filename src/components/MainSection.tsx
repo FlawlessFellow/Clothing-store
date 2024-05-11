@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import '../assets/styles/reset.css';
 import '../assets/styles/main.css';
+import '../assets/styles/media-queries.css';
 import '../assets/fonts/Montserrat.css';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
@@ -22,7 +23,7 @@ import OfferSection from './main/OfferSection/OfferSection';
 
 const MainSection: FC = () => {
     return (
-        <>
+        <div className="main-wrapper">
             <Header />
             <Benefits />
             <CountdownTimer />
@@ -39,7 +40,7 @@ const MainSection: FC = () => {
             <SectionReviews />
             <OrderingGuide />
             <OfferSection />
-        </>
+        </div>
     );
 };
 

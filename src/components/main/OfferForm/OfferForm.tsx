@@ -1,11 +1,13 @@
-import React, { useState } from 'react';
-import OfferButton from '../OfferButton/OfferButton';
+import React, { useState, useRef } from 'react';
+import {useForm} from 'react-hook-form'
 import './style.css';
+import Button from '../Button/Button';
+import OfferButton from '../OfferButton/OfferButton';
 
 const OfferForm = () => {
     return (
         <div>
-            <form action="" id="offer_form" className="offer-form">
+            <form id="offer_form" className="offer-form">
                 <div className="offer-block">
                     <div className="offer_block-subtitle">Оберіть колір</div>
                     <div className="offer_block-variants">
@@ -99,6 +101,11 @@ const OfferForm = () => {
                         </ul>
                     </div>
                 </div>
+                <div style={{ padding: '0 15px' }}>
+                    <input type="text" name="name" className="offer-input-name" placeholder="Ваше ім'я" required />
+                    <input type="tel" name="phone" className="offer-input-phone" placeholder="+38(___) ___-__-__" required />
+                </div>
+                <Button />
             </form>
         </div>
     );
