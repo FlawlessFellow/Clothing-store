@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css';
 import SectionComponent from '../SectionComponent/SectionComponent';
 import { Carousel, CarouselItem } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import yellow from '../../../assets/images/slider-images/yellow.jpg';
 import yellow1 from '../../../assets/images/slider-images/yellow1.jpg';
 import yellow2 from '../../../assets/images/slider-images/yellow2.jpg';

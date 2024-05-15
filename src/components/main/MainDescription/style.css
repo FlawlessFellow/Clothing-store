@@ -1,6 +1,7 @@
 .description__wrapper {
     padding: 0 30px;
     margin-bottom: 30px;
+    margin-top: 0 !important;
     font-weight: 700;
     font-size: 30px;
     line-height: 38px;

@@ -16,6 +16,8 @@
 .benefits_list {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .benefits__list-item {

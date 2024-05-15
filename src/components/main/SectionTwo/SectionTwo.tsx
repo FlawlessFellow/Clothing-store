@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import SectionComponent from '../SectionComponent/SectionComponent';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel, CarouselItem } from 'react-bootstrap';
-import yellow from '../../../assets/images/slider-images/yellow.jpg';
-import yellow1 from '../../../assets/images/slider-images/yellow1.jpg';
-import yellow2 from '../../../assets/images/slider-images/yellow2.jpg';
+import pink from '../../../assets/images/slider-images/pink.jpg';
+import pink1 from '../../../assets/images/slider-images/pink1.jpg';
+import pink2 from '../../../assets/images/slider-images/pink2.jpg';
 
 const SectionTwo = () => {
     return (
@@ -18,14 +18,14 @@ const SectionTwo = () => {
                 children={
                     <div className="carousel-wrapper">
                         <Carousel>
-                            <CarouselItem style={{ height: '480px' }}>
-                                <img src={yellow} alt="#!" />
+                            <CarouselItem>
+                                <img src={pink} alt="#!" />
                             </CarouselItem>
-                            <CarouselItem style={{ height: '480px' }}>
-                                <img src={yellow1} alt="#!" />
+                            <CarouselItem>
+                                <img src={pink1} alt="#!" />
                             </CarouselItem>
-                            <CarouselItem style={{ height: '480px' }}>
-                                <img src={yellow2} alt="#!" />
+                            <CarouselItem>
+                                <img src={pink2} alt="#!" />
                             </CarouselItem>
                         </Carousel>
                     </div>

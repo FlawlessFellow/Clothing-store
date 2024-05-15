@@ -23,27 +23,16 @@
 body {
     width: 100%;
     min-width: 320px;
-    font-size: 15px;
-    line-height: 22px;
-    font-weight: 400;
-    background-color: #ddd;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    font-weight: 400 !important;
+    background-color: #ddd !important;
     /* overflow-x: hidden; */
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     line-height: 22px;
     /* overflow-y: scroll; */
     color: #222;
 }
-
-/* h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
-} */
 
 ul,
 ol,
@@ -54,7 +43,7 @@ li {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     all: unset;
     cursor: pointer;
 }

@@ -41,14 +41,18 @@
 }
 
 @media screen and (max-width: 400px) {
-    .timer {
+    /* .timer {
         width: 285px;
-    }
+    } */
 
     .timer-items {
         /* float: left; */
         margin: 0px 20px 0 0;
         width: 80px;
+    }
+
+    .timer-text {
+        margin-left: 20px;
     }
 
     .count-item {
@@ -59,6 +63,5 @@
         font-size: 26px;
         width: 36px;
         height: 50px;
-        line-height: 50px;
     }
 }

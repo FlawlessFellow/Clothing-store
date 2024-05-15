@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css';
 import SectionComponent from '../SectionComponent/SectionComponent';
 import { Carousel, CarouselItem } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import bereza from '../../../assets/images/slider-images/bereza.jpg';
 import bereza1 from '../../../assets/images/slider-images/bereza1.jpg';
 import bereza2 from '../../../assets/images/slider-images/bereza2.jpg';

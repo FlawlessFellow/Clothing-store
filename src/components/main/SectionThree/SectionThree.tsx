@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css';
 import SectionComponent from '../SectionComponent/SectionComponent';
 import { Carousel, CarouselItem } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import lilu from '../../../assets/images/slider-images/lilu.jpg';
 import lilu1 from '../../../assets/images/slider-images/lilu1.jpg';
 import lilu2 from '../../../assets/images/slider-images/lilu2.jpg';
